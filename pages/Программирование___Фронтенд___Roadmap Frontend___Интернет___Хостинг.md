@@ -1,0 +1,33 @@
+- Типы хостинга: shared, dedicated, VPS (virtual private server), cloud, reseller.
+	- Shared -- самый простой. Просто выделяется место под файлы. Легок в управлении, подходит небольшим и персональным сайтам.
+	- VPS -- по сути, изолированный кусок сервера под тебя. Есть рут доступ до своей виртуальной части сервера. Тут можно сделать уже побольше.
+	- Dedicated -- если нужен root доступ и возможность устанавливать разный софт. Более надежный, более ресурсоемкий, более дорогой.
+	- Cloud -- данные распределяются между несколькими vps.
+- Важные параметры хостинга:
+	- Аптайм (доступность) -- в идеале 99.9% и выше.
+	- Скорость и производительность -- важно для UX и SEO.
+		- Некоторые советы по ускорению:
+		- Optimize images by compressing them (without compromising quality).
+		- Implement browser caching to store static assets locally on visitor devices.
+		- Choose a lightweight, speed-optimized theme for your website.
+		- Regularly clean up and optimize your website databases to improve efficiency.
+		- Use a CDN service, which can store cached versions of your site content closer to users, reducing latency and improving load times (especially for global audiences) to distribute your content across multiple servers worldwide.
+		- Enable GZIP compression on your server to compress files before sending them to the browser.
+	- Безопасность:
+		- SSL сертификат
+		- Firewall для неавторизованного доступа
+		- Проверка на вирусы
+		- Защита от DDoS
+		- XSS атаки
+		- Брутфорс
+	- Поддержка -- в том числе документация или возможность обсудить
+	- Цена -- важно проверять стоимость обновления подписки
+	- Хостинг нескольких доменов
+	- Подключение email
+	- Возможности апгрейда -- если вдруг повысится нагрузка.
+	- Наличие контрольной панели
+	- Возможность SSH
+- ## Ресурсы
+  heading:: 2
+	- Видос 1: [тык]({{video https://www.youtube.com/watch?v=Kx_1NYYJS7Q}})
+	- Видос 2: [тык]({{video https://www.youtube.com/watch?v=AXVZYzw8geg}})
